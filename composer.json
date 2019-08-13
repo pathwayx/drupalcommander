@@ -1,0 +1,23 @@
+{
+  "name": "pathwayx/drupalcommander",
+  "description": "Tools work with remote Drupal sites via GET and POST requests. Does not rely on ssh, oauth, webservices, etc.",
+  "keywords": ["drupal","drupal8","drupal 8"],
+  "homepage": "https://pathwayx.io",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Joeri Poesen",
+          "email": "jpoesen@pathwayeducation.eu",
+          "homepage": "https://jpoesen.com",
+          "role": "Developer"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+        "pathwayx\\drupalcommander\\": "src"
+      }
+  },
+  "minimum-stability": "dev",
+  "version": "0.0.1"
+}
+
